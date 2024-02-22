@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="timepass.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="main">
+      <div id="list">
+        <div class="header">
+          <h1>Quiz Application</h1>
+
+          <button class="btn" onclick="reset()">reset</button>
+          <button class="btn" onclick="showAns()">Show Ans</button>
+        </div>
+        <div class="seperator"></div>
+        <h1>Start The Quiz?</h1>
+        <button class="btn" onclick="answer(1)">Yes</button>
+        <button class="btn" onclick="answer(0)">No</button>
+      </div>
+      <div id="ques"></div>
+    </div>
+    <div id="ans"></div>
+
+    <script src="timepass.js"></script>
+  </body>
+</html>

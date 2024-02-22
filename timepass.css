@@ -1,0 +1,59 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+#main {
+  width: 40vw;
+  height: 60vh;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+#ans {
+  width: 40vw;
+  height: 60vh;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 20px;
+  display: none;
+}
+p {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1 {
+  margin-left: 20px;
+}
+.header button {
+  margin-right: 20px;
+}
+.seperator {
+  width: 100%;
+  height: 5px;
+  opacity: 0.44;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.list button {
+  width: 100px;
+}
+
+.btn {
+  background-color: rgb(40, 191, 255);
+  width: 200px;
+  height: 30px;
+  color: black;
+  font-weight: bold;
+  border-radius: 100px;
+}
